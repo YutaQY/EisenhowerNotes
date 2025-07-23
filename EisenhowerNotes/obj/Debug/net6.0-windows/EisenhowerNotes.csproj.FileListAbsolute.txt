@@ -1,0 +1,17 @@
+C:\RandomThings\VSP\EisenhowerNotes\EisenhowerNotes\bin\Debug\net6.0-windows\EisenhowerNotes.exe
+C:\RandomThings\VSP\EisenhowerNotes\EisenhowerNotes\bin\Debug\net6.0-windows\EisenhowerNotes.deps.json
+C:\RandomThings\VSP\EisenhowerNotes\EisenhowerNotes\bin\Debug\net6.0-windows\EisenhowerNotes.runtimeconfig.json
+C:\RandomThings\VSP\EisenhowerNotes\EisenhowerNotes\bin\Debug\net6.0-windows\EisenhowerNotes.dll
+C:\RandomThings\VSP\EisenhowerNotes\EisenhowerNotes\bin\Debug\net6.0-windows\EisenhowerNotes.pdb
+C:\RandomThings\VSP\EisenhowerNotes\EisenhowerNotes\obj\Debug\net6.0-windows\EisenhowerNotes.csproj.AssemblyReference.cache
+C:\RandomThings\VSP\EisenhowerNotes\EisenhowerNotes\obj\Debug\net6.0-windows\EisenhowerNotes.Form1.resources
+C:\RandomThings\VSP\EisenhowerNotes\EisenhowerNotes\obj\Debug\net6.0-windows\EisenhowerNotes.csproj.GenerateResource.cache
+C:\RandomThings\VSP\EisenhowerNotes\EisenhowerNotes\obj\Debug\net6.0-windows\EisenhowerNotes.GeneratedMSBuildEditorConfig.editorconfig
+C:\RandomThings\VSP\EisenhowerNotes\EisenhowerNotes\obj\Debug\net6.0-windows\EisenhowerNotes.AssemblyInfoInputs.cache
+C:\RandomThings\VSP\EisenhowerNotes\EisenhowerNotes\obj\Debug\net6.0-windows\EisenhowerNotes.AssemblyInfo.cs
+C:\RandomThings\VSP\EisenhowerNotes\EisenhowerNotes\obj\Debug\net6.0-windows\EisenhowerNotes.csproj.CoreCompileInputs.cache
+C:\RandomThings\VSP\EisenhowerNotes\EisenhowerNotes\obj\Debug\net6.0-windows\EisenhowerNotes.dll
+C:\RandomThings\VSP\EisenhowerNotes\EisenhowerNotes\obj\Debug\net6.0-windows\refint\EisenhowerNotes.dll
+C:\RandomThings\VSP\EisenhowerNotes\EisenhowerNotes\obj\Debug\net6.0-windows\EisenhowerNotes.pdb
+C:\RandomThings\VSP\EisenhowerNotes\EisenhowerNotes\obj\Debug\net6.0-windows\EisenhowerNotes.genruntimeconfig.cache
+C:\RandomThings\VSP\EisenhowerNotes\EisenhowerNotes\obj\Debug\net6.0-windows\ref\EisenhowerNotes.dll
