@@ -30,22 +30,33 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EisenhowerNotes));
             this.mainFormName = new System.Windows.Forms.Label();
+            this.listBoxTasks = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // mainFormName
             // 
-            this.mainFormName.AutoSize = true;
             this.mainFormName.BackColor = System.Drawing.Color.Transparent;
-            this.mainFormName.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.mainFormName.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            this.mainFormName.Font = new System.Drawing.Font("Arial", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.mainFormName.ForeColor = System.Drawing.SystemColors.Window;
             this.mainFormName.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.mainFormName.Location = new System.Drawing.Point(204, 19);
-            this.mainFormName.MinimumSize = new System.Drawing.Size(500, 50);
+            this.mainFormName.Location = new System.Drawing.Point(744, 423);
+            this.mainFormName.MinimumSize = new System.Drawing.Size(114, 20);
             this.mainFormName.Name = "mainFormName";
-            this.mainFormName.Size = new System.Drawing.Size(500, 50);
+            this.mainFormName.Size = new System.Drawing.Size(114, 20);
             this.mainFormName.TabIndex = 0;
             this.mainFormName.Text = "Eisenhower Notes v0.0";
-            this.mainFormName.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.mainFormName.TextAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.mainFormName.UseMnemonic = false;
+            // 
+            // listBoxTasks
+            // 
+            this.listBoxTasks.FormattingEnabled = true;
+            this.listBoxTasks.ItemHeight = 20;
+            this.listBoxTasks.Location = new System.Drawing.Point(12, 12);
+            this.listBoxTasks.Name = "listBoxTasks";
+            this.listBoxTasks.Size = new System.Drawing.Size(150, 104);
+            this.listBoxTasks.TabIndex = 1;
             // 
             // EisenhowerNotes
             // 
@@ -54,16 +65,17 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(870, 452);
+            this.Controls.Add(this.listBoxTasks);
             this.Controls.Add(this.mainFormName);
             this.Name = "EisenhowerNotes";
             this.Text = "Eisenhower Notes";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
         private Label mainFormName;
+        private ListBox listBoxTasks;
     }
 }
