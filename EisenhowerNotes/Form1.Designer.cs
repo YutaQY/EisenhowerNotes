@@ -31,12 +31,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EisenhowerNotes));
             this.mainFormName = new System.Windows.Forms.Label();
             this.listBoxTasks = new System.Windows.Forms.ListBox();
+            this.dateTimeMain = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // mainFormName
             // 
+            this.mainFormName.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.mainFormName.BackColor = System.Drawing.Color.Transparent;
-            this.mainFormName.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             this.mainFormName.Font = new System.Drawing.Font("Arial", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.mainFormName.ForeColor = System.Drawing.SystemColors.Window;
             this.mainFormName.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -58,6 +59,18 @@
             this.listBoxTasks.Size = new System.Drawing.Size(150, 104);
             this.listBoxTasks.TabIndex = 1;
             // 
+            // dateTimeMain
+            // 
+            this.dateTimeMain.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.dateTimeMain.CalendarFont = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dateTimeMain.CalendarMonthBackground = System.Drawing.Color.Transparent;
+            this.dateTimeMain.CalendarTitleBackColor = System.Drawing.Color.Transparent;
+            this.dateTimeMain.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dateTimeMain.Location = new System.Drawing.Point(710, 12);
+            this.dateTimeMain.Name = "dateTimeMain";
+            this.dateTimeMain.Size = new System.Drawing.Size(148, 25);
+            this.dateTimeMain.TabIndex = 2;
+            // 
             // EisenhowerNotes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -65,6 +78,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(870, 452);
+            this.Controls.Add(this.dateTimeMain);
             this.Controls.Add(this.listBoxTasks);
             this.Controls.Add(this.mainFormName);
             this.Name = "EisenhowerNotes";
@@ -77,5 +91,6 @@
 
         private Label mainFormName;
         private ListBox listBoxTasks;
+        private DateTimePicker dateTimeMain;
     }
 }
