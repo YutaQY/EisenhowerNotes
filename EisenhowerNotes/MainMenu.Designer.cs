@@ -32,6 +32,7 @@
             this.mainFormName = new System.Windows.Forms.Label();
             this.listBoxTasks = new System.Windows.Forms.ListBox();
             this.dateTimeMain = new System.Windows.Forms.DateTimePicker();
+            this.buttonAddNote = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // mainFormName
@@ -52,11 +53,12 @@
             // 
             // listBoxTasks
             // 
+            this.listBoxTasks.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.listBoxTasks.FormattingEnabled = true;
-            this.listBoxTasks.ItemHeight = 20;
+            this.listBoxTasks.ItemHeight = 19;
             this.listBoxTasks.Location = new System.Drawing.Point(12, 12);
             this.listBoxTasks.Name = "listBoxTasks";
-            this.listBoxTasks.Size = new System.Drawing.Size(150, 104);
+            this.listBoxTasks.Size = new System.Drawing.Size(150, 99);
             this.listBoxTasks.TabIndex = 1;
             // 
             // dateTimeMain
@@ -66,10 +68,28 @@
             this.dateTimeMain.CalendarMonthBackground = System.Drawing.Color.Transparent;
             this.dateTimeMain.CalendarTitleBackColor = System.Drawing.Color.Transparent;
             this.dateTimeMain.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.dateTimeMain.Location = new System.Drawing.Point(710, 12);
+            this.dateTimeMain.Location = new System.Drawing.Point(676, 12);
             this.dateTimeMain.Name = "dateTimeMain";
-            this.dateTimeMain.Size = new System.Drawing.Size(148, 25);
+            this.dateTimeMain.Size = new System.Drawing.Size(182, 25);
             this.dateTimeMain.TabIndex = 2;
+            // 
+            // buttonAddNote
+            // 
+            this.buttonAddNote.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.buttonAddNote.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.buttonAddNote.BackColor = System.Drawing.Color.Black;
+            this.buttonAddNote.BackgroundImage = global::EisenhowerNotes.Properties.Resources.buttonSprite;
+            this.buttonAddNote.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonAddNote.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonAddNote.ForeColor = System.Drawing.Color.Black;
+            this.buttonAddNote.Location = new System.Drawing.Point(12, 411);
+            this.buttonAddNote.Margin = new System.Windows.Forms.Padding(0);
+            this.buttonAddNote.Name = "buttonAddNote";
+            this.buttonAddNote.Size = new System.Drawing.Size(94, 29);
+            this.buttonAddNote.TabIndex = 3;
+            this.buttonAddNote.Text = "AddNote";
+            this.buttonAddNote.UseVisualStyleBackColor = false;
+            this.buttonAddNote.Click += new System.EventHandler(this.buttonAddNote_Click);
             // 
             // EisenhowerNotes
             // 
@@ -78,6 +98,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(870, 452);
+            this.Controls.Add(this.buttonAddNote);
             this.Controls.Add(this.dateTimeMain);
             this.Controls.Add(this.listBoxTasks);
             this.Controls.Add(this.mainFormName);
@@ -92,5 +113,6 @@
         private Label mainFormName;
         private ListBox listBoxTasks;
         private DateTimePicker dateTimeMain;
+        private Button buttonAddNote;
     }
 }

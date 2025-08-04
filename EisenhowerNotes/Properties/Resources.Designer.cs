@@ -59,5 +59,15 @@ namespace EisenhowerNotes.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap buttonSprite {
+            get {
+                object obj = ResourceManager.GetObject("buttonSprite", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
